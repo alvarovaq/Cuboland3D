@@ -26,8 +26,8 @@ Controles cuando el jugador está volando
 
 |    | Tecla       |
 | ----------|:---------:|
-| Movimiento hacia arriba  | ESPACE |
-| Movimiento hacia abajo  | SHIFT |
+| Subir  | ESPACE |
+| Bajar | SHIFT |
 | Traspasar/No Traspasar bloques  | C |
 
 ## Inventario
