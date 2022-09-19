@@ -35,8 +35,8 @@ Controles cuando el jugador está volando
 El juego nos permite construir con bloques de colores personalizados. En el inventario tenemos 8 bloques, que podemos acceder a ellos
 pulsando el número del dicho bloque. Cuando abrimos el inventario podemos elegir el color de cada bloque, así como la opacidad del mismo.
 
-Cuando se cierra el juego, se guarda el mapa, sin embargo, la configuración del color de cada bloque vuelve a su estado inicial, por ello
-es importante conocer el cógido de color del bloque, este aparece en la esquina superior de la izquierda.
+Cuando se cierra el juego, se guarda el mapa, sin embargo, la configuración del color de cada bloque vuelve a su estado inicial, es por ello
+que es importante conocer el cógido de color del bloque, este aparece en la esquina superior de la izquierda.
 
 <img src="https://user-images.githubusercontent.com/113897176/191015293-3b77e7a4-ad4f-4b21-90a1-0034b2925d07.png" width="400">
 
@@ -58,8 +58,8 @@ Para ello, el código debe ser modificado en la función *script_update* de la c
             self.death = True
 ```
 
-En este caso, cuando el jugador toca un objeto con el color *(100,200,100)*, hace que el jugador salte. Si toca un objeto con el color *(200,100,100)*,
-el jugador muere, y este aparecerá en el punto de inicio.
+En este caso, cuando el jugador toca un bloque con el color *(100,200,100)* hace que el jugador salte. Si toca un bloque con el color *(200,100,100)*,
+el jugador muere y este aparecerá en el punto de inicio.
 
 ## Ejecución
 
